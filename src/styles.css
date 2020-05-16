@@ -1,0 +1,56 @@
+html, body, div, span,
+h1, p, ul, li {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #000000;
+  font-size: 16px;
+  line-height: 22px;
+  color: #dadada;
+  font-family: 'Helvetica Neue', Verdana, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  background: #222;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+  font-weight: 200;
+}
+
+.btn:hover {
+  background: lightslategrey;
+}
+
+.btn-red {
+  background: black;
+}
+
+.btn-red:hover {
+  background: black;
+}
+
+.app-title {
+  font-size: 52px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -2.8px;
+}
